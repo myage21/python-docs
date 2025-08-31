@@ -1,0 +1,112 @@
+📘 Python Online Book 목차 (Draft)
+
+0부. 들어가기
+	•	0.1 Python이란 무엇인가
+	•	0.2 Python의 버전과 역사 (3.12 → 3.13 주요 변화)
+	•	0.3 개발 환경 준비
+	•	macOS, Windows, Linux 설치법
+	•	pyenv, venv, pip, uv
+	•	IDE/에디터 (VSCode, Cursor, PyCharm)
+
+⸻
+
+1부. 기초 다지기
+	•	1.1 첫 번째 프로그램: Hello, World
+	•	1.2 기본 문법과 자료형
+	•	숫자, 문자열, 불리언, None
+	•	f-string, 3.13 개선된 에러 메시지
+	•	1.3 변수와 연산자
+	•	1.4 조건문 (if, match 문법 포함)
+	•	1.5 반복문 (for, while, break/continue)
+	•	1.6 함수와 매개변수 (기본값, 키워드, 가변 인자)
+	•	1.7 스코프와 네임스페이스
+
+⸻
+
+2부. 데이터 다루기
+	•	2.1 리스트, 튜플
+	•	2.2 딕셔너리, 집합
+	•	2.3 리스트 컴프리헨션, 제너레이터 표현식
+	•	2.4 이터레이터와 제너레이터
+	•	2.5 문자열 고급 활용
+	•	2.6 파일 입출력
+
+⸻
+
+3부. 함수형 & 모듈화
+	•	3.1 람다 함수
+	•	3.2 map, filter, reduce, zip
+	•	3.3 모듈과 패키지
+	•	3.4 import와 Python 패키지 구조
+	•	3.5 가상환경과 패키지 관리 (pip, uv, pyproject.toml)
+
+⸻
+
+4부. 객체지향 프로그래밍
+	•	4.1 클래스와 객체
+	•	4.2 속성과 메서드
+	•	4.3 상속과 다형성
+	•	4.4 추상 클래스와 인터페이스 (abc)
+	•	4.5 데이터클래스와 __slots__ (3.13 개선 포함)
+
+⸻
+
+5부. 에러 처리와 디버깅
+	•	5.1 예외 처리 (try/except/finally)
+	•	5.2 사용자 정의 예외
+	•	5.3 Python 3.11+ 에러 메시지 향상
+	•	5.4 디버깅 도구 (pdb, breakpoint())
+	•	5.5 로깅 기초
+
+⸻
+
+6부. 표준 라이브러리 활용
+	•	6.1 datetime, math, random
+	•	6.2 collections, itertools, functools
+	•	6.3 pathlib, os, sys
+	•	6.4 json, csv, sqlite3
+	•	6.5 typing (정적 타입 힌트, 3.13의 새로운 기능)
+
+⸻
+
+7부. 중급 주제
+	•	7.1 컨텍스트 매니저 (with, contextlib)
+	•	7.2 데코레이터
+	•	7.3 이터레이터 프로토콜 심화
+	•	7.4 프로퍼티와 디스크립터
+	•	7.5 모듈 임포트 내부 동작
+
+⸻
+
+8부. 비동기 프로그래밍
+	•	8.1 스레드와 프로세스 (threading, multiprocessing)
+	•	8.2 asyncio 기초
+	•	8.3 async/await 문법
+	•	8.4 태스크와 이벤트 루프
+	•	8.5 비동기 IO와 실제 사례
+
+⸻
+
+9부. 실전 응용
+	•	9.1 데이터 처리 (Pandas, Numpy 기초)
+	•	9.2 웹 크롤링 (requests, BeautifulSoup, Playwright)
+	•	9.3 간단한 웹 서버 (Flask/FastAPI)
+	•	9.4 CLI 도구 제작 (argparse, typer)
+	•	9.5 간단한 자동화 스크립트 모음
+
+⸻
+
+10부. 고급 주제
+	•	10.1 GIL과 Python의 내부 구조
+	•	10.2 메모리 관리와 GC
+	•	10.3 C 확장과 Cython 개요
+	•	10.4 패키징과 배포 (PyPI)
+	•	10.5 성능 최적화 (profiling, asyncio tuning)
+
+⸻
+
+부록
+	•	A. Python 3.13의 새로운 기능 총정리
+	•	B. 추천 학습 자료 (문서, 책, 커뮤니티)
+	•	C. 프로젝트 예제 모음 (미니프로젝트: 계산기, 미니 웹앱, 크롤러 등)
+	•	D. 인터뷰 대비 질문 모음

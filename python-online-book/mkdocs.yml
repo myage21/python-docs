@@ -1,6 +1,18 @@
 site_name: Python Online Book
+site_url: https://myage21.github.io/python-docs/
 theme:
   name: material
   language: ko
 nav:
-  - 홈: index.md
+  - Python Online Book 소개: index.md
+  - 1부. 기초 다지기:
+    - 기초 다지기 서문: part01/intro.md         # 1부 서문
+    - 1.1 Hello World: part01/hello_world.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      linenums: true
+      linenums_style: table
+  - pymdownx.superfences
