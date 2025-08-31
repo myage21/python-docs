@@ -39,7 +39,7 @@ jobs:
 
       # mkdocs 설정 파일명이 mkdocs.yaml이라면 -f로 명시, mkdocs.yml이면 생략 가능
       - name: Build site
-        run: mkdocs build --strict -f mkdocs.yaml
+        run: mkdocs build --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
