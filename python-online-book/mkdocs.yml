@@ -1,0 +1,6 @@
+site_name: Python Online Book
+theme:
+  name: material
+  language: ko
+nav:
+  - 홈: index.md
